@@ -45,6 +45,31 @@ npm run dev
 npm run build
 ```
 
+## 🚀 Deploy to GitHub Pages
+
+This project is configured to automatically deploy to GitHub Pages using GitHub Actions.
+
+### Automatic Deployment
+
+1. Push your code to the `main` or `master` branch
+2. The GitHub Actions workflow will automatically:
+   - Build the project
+   - Deploy to GitHub Pages
+   - Make it available at `https://yourusername.github.io/portfolio1/`
+
+### Manual Setup (if needed)
+
+1. Go to your repository settings on GitHub
+2. Navigate to "Pages" in the sidebar
+3. Under "Source", select "GitHub Actions"
+4. The workflow will automatically deploy on every push to main/master
+
+### Important Notes
+
+- The site will be available at `https://yourusername.github.io/portfolio1/`
+- Make sure your repository is public (or you have GitHub Pro for private repos)
+- The first deployment may take a few minutes to complete
+
 ## 📁 Project Structure
 
 ```
